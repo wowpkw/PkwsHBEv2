@@ -1,4 +1,4 @@
-local games = {
+local game = {
 		"Dynasty Battlegrounds",
 		"Alternate Battlegrounds",
 		"Black Magic II",
@@ -6,4 +6,4 @@ local games = {
 		"Da Hood",
 		"Pretty much any other game since it's universal."
 }
-return games
+return game
