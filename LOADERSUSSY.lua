@@ -15,12 +15,12 @@ local DHVC = 7213786345
 
 --SHORTCUTS
 
-local BAPNSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBE/main/BAPNHBE.lua"
-local DBSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBE/main/DYNASTYHBE.lua"
-local UNIVERSAL = "https://raw.githubusercontent.com/wowpkw/PkwsHBE/main/UniversalHBE.lua"
-local ABSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBE/main/ABHBE.lua"
-local BM2SCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBE/main/BM2.lua"
-local DHSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBE/main/DHLOCK"
+local BAPNSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBEv2/main/BAPN.lua"
+local DBSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBEv2/main/DynastyBattlegrounds.lua"
+local UNIVERSAL = "https://raw.githubusercontent.com/wowpkw/PkwsHBEv2/main/Universal.lua"
+local ABSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBEv2/main/AB.lua"
+local BM2SCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBEv2/main/BM2.lua"
+local DHSCRIPT = "https://raw.githubusercontent.com/wowpkw/PkwsHBEv2/main/DH.lua"
 
 --LOADER
 if placeId == (BAPN) then
