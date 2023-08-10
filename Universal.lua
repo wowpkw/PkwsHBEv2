@@ -9,7 +9,7 @@ local GUI = Mercury:Create{
     Name = "Pkw's U.HBE",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Legacy,
-    Link = "https://github.com/wowpkw/PkwsHBE/tree"
+    Link = "https://github.com/wowpkw/PkwsHBEv2/tree"
 }
 
 local Tab = GUI:Tab{
