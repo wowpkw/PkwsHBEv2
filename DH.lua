@@ -249,7 +249,7 @@ end
 end
 if v ~= game:GetService("Players").LocalPlayer then
 if v.Character.BodyEffects:FindFirstChild("K.O").Value == false then 
-v.Character.HumanoidRootPart.Size = Vector3.new(20, 20, 20) --change to make smaller
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize, _G.HeadSize, _G.HeadSize) --change to make smaller
 v.Character.HumanoidRootPart.Transparency = _G.Transparency
 v.Character.HumanoidRootPart.CanCollide = false
 else
