@@ -6,14 +6,14 @@ local discord = "https://discord.gg/UTWMshSKzy"
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
 local GUI = Mercury:Create{
-    Name = "Pkw's U.HBE",
+    Name = "Pkw's DH.HBE",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Legacy,
     Link = "https://github.com/wowpkw/PkwsHBEv2/tree"
 }
 
 local Tab = GUI:Tab{
-	Name = "Universal-HBE-V".._G.Version,
+	Name = "Da-Hood-HBE-V".._G.Version,
 	Icon = "rbxassetid://3173271667"
 }
 local Tab2 = GUI:Tab{
@@ -211,7 +211,7 @@ Tab:Button{
 	-- notif
 GUI:Notification{
 	Title = "Success!",
-	Text = "Successfully extended hitboxes!",
+	Text = "Successfully enabled box lock!",
 	Duration = 3,
 	Callback = function() end
 }
@@ -272,4 +272,5 @@ enabled = false
 end
 
 end)
+end
 }
