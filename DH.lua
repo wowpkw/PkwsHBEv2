@@ -211,14 +211,13 @@ Tab:Button{
 	-- notif
 GUI:Notification{
 	Title = "Success!",
-	Text = "Successfully enabled box lock!",
+	Text = "Successfully extended hitboxes!",
 	Duration = 3,
 	Callback = function() end
 }
 -- script
 _G.PART = "Head"
 _G.PRED = 0.13960
-_G.T = _G.Transparency
 
 local lp = game:GetService("Players").LocalPlayer
 local mouse = lp:GetMouse()
@@ -250,8 +249,8 @@ end
 end
 if v ~= game:GetService("Players").LocalPlayer then
 if v.Character.BodyEffects:FindFirstChild("K.O").Value == false then 
-v.Character.HumanoidRootPart.Size = Vector3.new(_G.Headsize, _G.Headsize, _G.Headsize) --change to make smaller
-v.Character.HumanoidRootPart.Transparency = _G.T
+v.Character.HumanoidRootPart.Size = Vector3.new(20, 20, 20) --change to make smaller
+v.Character.HumanoidRootPart.Transparency = _G.Transparency
 v.Character.HumanoidRootPart.CanCollide = false
 else
 v.Character.HumanoidRootPart.Size = Vector3.new(0.1, 0.1, 0.1)
