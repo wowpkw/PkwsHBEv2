@@ -6,14 +6,14 @@ local discord = "https://discord.gg/UTWMshSKzy"
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
 local GUI = Mercury:Create{
-    Name = "Pkw's U.HBE",
+    Name = "Pkw's BAPN.HBE",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Legacy,
     Link = "https://github.com/wowpkw/PkwsHBEv2/tree"
 }
 
 local Tab = GUI:Tab{
-	Name = "Universal-HBE-V".._G.Version,
+	Name = "Be-A-Parkour-Ninja-HBE-V".._G.Version,
 	Icon = "rbxassetid://3173271667"
 }
 local Tab2 = GUI:Tab{
@@ -242,10 +242,10 @@ function Modify() -- /* ON */
                local ESP = Instance.new("Highlight", v.Character) -- Set the character variable to the character model of the targeted player
                ESP.Name = "nG1#8Bg#hj6pP8mXQUlURh1Mtw4hAXCG4cBLVfFsF0RJru#!a7"
                ESP.FillColor = Color3.new(0, 0, 0)
-               ESP.FillTransparency = 1
+               ESP.FillTransparency = _G.Transparency
                ESP.OutlineColor = EnumColor
                ESP.OutlineTransparency = 0
-               ESP.Adornee = v.Character.HumanoidRootPart
+               ESP.Adornee = v.Character.Head
             end)
        end
    end
@@ -293,4 +293,5 @@ game:GetService('RunService').RenderStepped:Connect(function()
        Modify()
    end
 end)
+end
 }
