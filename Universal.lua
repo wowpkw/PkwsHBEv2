@@ -1,7 +1,7 @@
 -- other
 _G.Version = "1.0.3" -- VERSION (if you plan to update)
 local SupportedGames = loadstring(game:HttpGet("https://raw.githubusercontent.com/wowpkw/PkwsHBEv2/main/SupportedGames"))()
-local discord = "https://discord.gg/UTWMshSKzy"
+local discord = "https://discord.gg/C3rDj9WqvV"
 -- gui creation
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
